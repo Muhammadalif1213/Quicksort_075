@@ -41,5 +41,16 @@ void swap(int x, int y)
 
 void q_short(int low, int high)
 {
+    int pivot, i, j;
+    if (low > high) //langkah 1
+        return;
 
+    //partition the list into two parts
+    //one constraining elements less that or equal to pivot
+    //outher constrailowning elements greather than privot
+
+    pivot = arr[low]; //langkah 2
+
+    i = low + 1; //langkah 3
+    j = high; //langkah 4
 }
